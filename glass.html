@@ -1,0 +1,70 @@
+   
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huffman Code Project</title>
+    <link rel="stylesheet" href="./glass_style.css" />
+  
+  </head>
+  <body>
+    <div class="info"> <h1>Information and Coding Theory: ENEE5304 </h1></div>
+    <div class="info"> <h2>Course Project: Implement Huffman Code </h1></div>
+    <div class="info"> <h3>Maen Khdour 1171944 </h1></div>
+    <main>
+      <section class="glass">
+        <div class="Input">
+          <label for="myfile"> Select a file: </label>
+          <input type="file" name="inputfile" id="inputfile">
+          <textarea id="output" class="Output"> </textarea>
+        </div>
+        <br>
+        <div class="data">
+          <label for="EntropyHTML">Entropy (bits/charachter): </label>
+          <label  id="EntropyHTML" ></label>
+        </div>
+        <br>
+        <div class="data">
+          <label for="AvgLengthHTML">Avg Codeword Length (bits/charachter): </label>
+          <label  id="AvgLengthHTML" ></label>
+        </div>
+        <br>
+        <div class="data">
+          <label for="TotalNumberOfBits">Total Number of Bits in Message (bits): </label>
+          <label  id="TotalNumberOfBits" ></label>
+        </div>
+        <br>
+        <div class="data">
+          <label for="NumberOfBitsAssci">Total Number of Bits in ASCII (bits):</label>
+          <label  id="NumberOfBitsAssci" ></label>
+        </div>
+        <br>
+        <div class="data">
+          <label for="EfficiencyHTML">Efficiency % : </label>
+          <label  id="EfficiencyHTML" ></label>
+        </div>
+        <br>
+        <div class="TableStyle">
+          <table class="TABLE" >
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Symbol</th>   
+                <th>Frequency</th>
+                <th>Probability</th>
+                <th>Codeword</th>
+                <th>Length of code word</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+          </table>
+       </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <script src="code.js"></script>
+  </body>
+</html>

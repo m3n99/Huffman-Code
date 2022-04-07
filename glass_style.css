@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 2.3rem;
+  }
+  h2,
+  p {
+    color: #000000;
+    font-weight: 600;
+    font-size: 2rem;
+
+  }
+  
+  h3 {
+    color: #000000;
+    font-weight: 600;
+    font-size: 1.8rem;
+   
+  }
+  .info{
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    justify-content: center;
+  }
+  
+  main {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glass {
+    background: white;
+    min-height: 80vh;
+    width: 80%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(1.5rem);
+    padding: 2px;
+    
+  }
+  .circle1,
+  .circle2,.circle3,
+  .circle4 {
+    background: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle1 {
+    top: 8%;
+    right: 1.5%;
+  }
+  .circle2 {
+    top: 70%;
+    bottom: 7%;
+    left:1.5%;
+  }
+
+  .Input{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    padding: auto;
+    color: rgb(0, 0, 0);
+    display: flex;
+  }
+  .data{
+    text-align: center;
+  font-weight: bold;
+    font-size:19px;
+    color:#b00b69;
+    
+
+  }
+  .Output{
+    display: flex;
+    width: 550px;
+    height: 250px;
+    margin: 3px;
+    padding: 10px;
+    border-width:3px;
+    border-style:solid;
+    border-color:black
+  }
+.TableStyle{
+  height: 600px;
+  overflow-y: scroll;
+
+  }
+.TABLE{
+  position: relative;
+  text-align: center;
+  margin:auto;
+  border: 1px solid black;
+  border-collapse: collapse;  
+  
+}
+th, td {
+  padding: 10px;
+  font: bold;
+  border: 2.5px solid black;
+  border-collapse: collapse;
+  
+}
+th {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
