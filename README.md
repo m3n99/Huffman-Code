@@ -1,7 +1,7 @@
 # Huffman-Code
 
 
-Writea computer program using matlab (or any language) to simulate the Huffman code, i.e., to generate the codewords given a certain set of symbols along with their probabilities.
+Write a computer program using matlab (or any language) to simulate the Huffman code, i.e., to generate the codewords given a certain set of symbols along with their probabilities.
 You will be given an English short story: Shooting an Elephant by George Orwell . Find the frequency of the characters in the story.
 Find the probabilities of the characters in the story (do not distinguish between capital and small letters)
 Use your program to find the: codewords for the characters.
@@ -12,3 +12,5 @@ Use your program to find the: codewords for the characters.
   4.Find the percentage of compression accomplished by using the Huffman encoding as compared to ASCII code.
   
  What are the probabilities, the lengths of the codewords , andthe codewords for the following symbols
+
+Code implement using Tree in js.
